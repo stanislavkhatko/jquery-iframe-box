@@ -1,5 +1,5 @@
 {
-  "name": "iframemodal",
+  "name": "jquery-iframe-box",
   "version": "1.0.0",
   "description": "Modal window with iframe",
   "main": "index.js",
