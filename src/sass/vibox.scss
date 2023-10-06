@@ -11,14 +11,14 @@
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box;
 }
 
 /* Modal Content/Box */
 .vibox-content {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox*/
+  -moz-box-sizing: border-box; /* Firefox*/
   box-sizing: border-box;
   position: relative;
   background-color: #ffffff;

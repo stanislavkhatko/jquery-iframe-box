@@ -1,12 +1,12 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var sass        = require('gulp-sass');
+var sass = require('gulp-sass');
 var minify = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 
 // Static Server + watching scss/js/php files
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['sass'], function () {
 
     browserSync.init({
         proxy: "vibox"
@@ -18,7 +18,7 @@ gulp.task('serve', ['sass'], function() {
 });
 
 // Compile sass into CSS & auto-inject into browsers
-gulp.task('sass', function() {
+gulp.task('sass', function () {
     return gulp.src("src/sass/*.scss")
         .pipe(sass({outputStyle: 'extended'}))
         .pipe(gulp.dest("src/css"))
@@ -40,7 +40,7 @@ gulp.task('minify-css', function () {
 });
 
 // minify js
-gulp.task('minify-js', function() {
+gulp.task('minify-js', function () {
     gulp.src('src/js/vibox.js')
         .pipe(rename({
             suffix: '.min'
@@ -51,4 +51,4 @@ gulp.task('minify-js', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('build',['minify-css', 'minify-js']);
+gulp.task('build', ['minify-css', 'minify-js']);
