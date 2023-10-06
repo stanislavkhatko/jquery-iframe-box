@@ -83,7 +83,7 @@ Check index.html with example to use
 [license-shield]: https://img.shields.io/github/license/stanislavkhatko/jquery-iframe-box.svg?style=for-the-badge
 [license-url]: https://github.com/stanislavkhatko/jquery-iframe-box/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/stanislavkhatko
+[linkedin-url]: https://linkedin.com/in/stanislav-khatko
 [product-screenshot]: screenshot.jpeg
 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
